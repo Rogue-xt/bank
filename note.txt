@@ -1,0 +1,38 @@
+npm i nodemon
+
+front end server integrarion
+---------------------------
+cors - library - Cross Origin Resource Sharing
+
+npm i cors
+
+db -server integration
+------------------------
+
+mongoose - library  (used to connect mongodb with server)
+
+
+
+
+destructuring
+=============
+acno=req.body.acno    ||   {acno}=req.body    u can use both types
+
+                            this type will save more lines
+eg:
+---     
+const acno=req.body.acno        ||
+const uname=req.body.uname      ||      {acno,uname,psw}=req.body
+const psw=req.body.psw          ||
+
+
+
+
+
+
+
+
+json web token
+===============
+user - authentication with token
+jsonwebtoken  -  library
